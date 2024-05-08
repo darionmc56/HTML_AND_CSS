@@ -1,0 +1,27 @@
+body {
+  font-family: 'Crimson Pro', serif;
+  font-size: 14px;
+  background-color:#6d6875;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button{
+  color: #ff4d6d;
+  background-color: #6d6875;
+  border:2px solid #ff4d6d;
+  padding:1em 2em;
+  font-size: 1em;
+  transition: 0.20s;
+  
+}
+
+button:hover{
+  color:#FFFFFF;
+ border: 2px solid #ffd400;
+ box-shadow: 0 0.5em 0.5em -0.4em #ffd400;
+ transform: translateY(-0.25em);
+ cursor:pointer;
+ }
